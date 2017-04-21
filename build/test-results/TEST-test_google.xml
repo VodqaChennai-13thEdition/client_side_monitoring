@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_google" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-21T06:39:12" hostname="IN-CH-Vijayaragavans.local" time="13.757">
+  <properties/>
+  <testcase name="test" classname="test_google" time="13.757"/>
+  <system-out><![CDATA[*****Time taken10963
+]]></system-out>
+  <system-err><![CDATA[Apr 21, 2017 12:09:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
