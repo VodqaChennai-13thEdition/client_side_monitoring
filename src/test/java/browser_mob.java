@@ -31,7 +31,7 @@ public class browser_mob {
         // get the Selenium proxy object
         Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
 
-        System.setProperty("webdriver.firefox.marionette", "/Users/Vijayaragavan/Downloads/Vodqa-Softwares/geckodriver");
+        System.setProperty("webdriver.firefox.marionette", "/Users/antosukesh/Desktop/JARS/geckodriver");
         DesiredCapabilities capabilities=DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);
 
