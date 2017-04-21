@@ -16,8 +16,8 @@ public class test_google {
 
         StopWatch time = new StopWatch();
         //Firefox 47 and above
-//        System.setProperty("webdriver.gecko.driver", "/Users/Vijayaragavan/Downloads/Vodqa-Softwares/geckodriver");
-        System.setProperty("webdriver.firefox.marionette", "/Users/antosukesh/Desktop/JARS/geckodriver");
+       //System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/lib/geckodriver");
+        System.setProperty("webdriver.firefox.marionette",System.getProperty("user.dir")+"/lib/geckodriver");
         DesiredCapabilities capabilities=DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);
         WebDriver driver = new FirefoxDriver(capabilities);
